@@ -1,0 +1,1261 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x154f9330" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x154f9330" />
+  <item nodeId="node-0x154f9330">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+You wake up on a hard couch, feeling like you suddenly remember everything in your whole life in one staggeringly lucid moment. You realize you&apos;ve been sleeping on your badge, and the indentation in your belly makes you feel like you&apos;ve been punched in the gut.
+
+Your phone buzzes to life with &quot;CHIEF&quot; displayed on its glowing face.
+
+Detective
+An Interactive Fiction by Andrew Nelson
+Release 1 / Serial number 111225 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Break Room (on the couch)
+The detective&apos;s office breakroom has barely enough space for the filth and mice it is infested with. You hear phones ringing and general commotion through the cheap, thin door to the north.
+
+You can see your phone here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">NO</temporary>
+    <children>
+      <child nodeId="node-0x17d88550" />
+      <child nodeId="node-0x17d883a0" />
+      <child nodeId="node-0x17d88310" />
+      <child nodeId="node-0x17d881f0" />
+      <child nodeId="node-0x17d87d70" />
+      <child nodeId="node-0x17d87500" />
+      <child nodeId="node-0x17d873e0" />
+      <child nodeId="node-0x17d86ed0" />
+      <child nodeId="node-0x154f9120" />
+    </children>
+  </item>
+  <item nodeId="node-0x154f9120">
+    <command xml:space="preserve">answer phone</command>
+    <result xml:space="preserve">(to yourself)
+The chief detective is on the other end with new orders: &quot;We need you on-scene at a distress call from 2578 Round Way. Possible kidnapping. Be there asap.&quot;
+
+And with that the grizzled, curt man of 60 hangs up; yet you can almost feel him staring at you with his steely eyes if you don&apos;t get moving immediately.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86e40" />
+      <child nodeId="node-0x17d85310" />
+      <child nodeId="node-0x154f93c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x154f93c0">
+    <command xml:space="preserve">examine phone</command>
+    <result xml:space="preserve">You see nothing special about your phone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x154f9450" />
+    </children>
+  </item>
+  <item nodeId="node-0x154f9450">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Break Room
+You lie on the couch in the detective&apos;s office breakroom, which barely has enough space for the mice it is infested with. Your phone buzzes to life with &quot;CHIEF&quot; displayed on its glowing face.
+
+You wish you could wake up next to something prettier.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x154f94e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x154f94e0">
+    <command xml:space="preserve">examine door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d84fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d84fc0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Office
+Walking out of the little room, you are greeted by several desks piled with phones and paperwork, which their human counterparts are busily shuffling around.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85050" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85050">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85160" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85160">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">The fence disagrees.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d851f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d851f0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">That&apos;s the road.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85280" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85280">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d85310">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first getting off the couch)
+
+Office
+You are greeted by several desks piled with phones and paperwork, which their human counterparts are busily shuffling around. The break room is to the south, and the front door to the parking lot is to the east.
+
+You can see Detective Tim here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85430" />
+      <child nodeId="node-0x17d853a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d853a0">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(Ring)
+You see nothing special about Ring.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d85430">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Parking Lot
+Time to go to your assignment.
+
+You can see a squad car (in which is Laptop) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d866b0" />
+      <child nodeId="node-0x17d855c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d855c0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You may be in fresh-out-of-the-academy athletic condition, but maybe driving would be a better idea.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85610" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85610">
+    <command xml:space="preserve">get in car</command>
+    <result xml:space="preserve">You get into the squad car.
+
+In the squad car you can see Laptop.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85660" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85660">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You may be in fresh-out-of-the-academy athletic condition, but maybe driving would be a better idea.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d856f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d856f0">
+    <command xml:space="preserve">drive</command>
+    <result xml:space="preserve">Driveway
+The owners must be pretty wealthy, you think as you pull into the driveway of a fortress-like mansion with a strong-looking gate. The officer on duty is in his squad car here, too.
+
+You can see Officer Bigby here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85780" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85780">
+    <command xml:space="preserve">talk to officer bigby</command>
+    <result xml:space="preserve">He lets you know that he couldn&apos;t find anything, but you might want to take a look around the yard and inside to check for signs of disturbance and what may have happened.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85810" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85810">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Driveway
+The yard is to the east, and the front door is to the north. The owners must be pretty wealthy, you think as you pull into the driveway of a fortress-like mansion with a strong-looking gate. The officer on duty is in his squad car here, too.
+
+You can see Officer Bigby here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d858a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d858a0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You&apos;re on the case, you can&apos;t leave!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85930" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85930">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d859c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d859c0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85a50">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Yard
+You&apos;re in the front yard. In the east corner you see a vegetable and herb garden, and the entrance to the mansion is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85ae0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Garden
+The soil seems disturbed, and a few plants are bent. Hiding behind this and the shrubbery would provide sufficient cover for a peeping tom. You notice the window here is broken and blood drips down the wall from it. A chewed tennis ball lies at your feet as a dog growls from around the corner at you. It doesn&apos;t look happy.
+
+You can see Ball here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85b70">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">The dog comes closer and closer to you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d854c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d854c0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85550" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85550">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85e40">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85ed0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">The dog comes closer and closer to you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85f60">
+    <command xml:space="preserve">throw ball</command>
+    <result xml:space="preserve">The dog lightens up and happily chases the ball into the backyard. You might want to get inside in case he wants to play with the next guy who comes near the window.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85ff0">
+    <command xml:space="preserve">take ball</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86080" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86080">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Yard
+You&apos;re in the front yard. In the east corner you see a vegetable and herb garden, and the entrance to the mansion is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86110" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86110">
+    <command xml:space="preserve">throw ball</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d861a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d861a0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Foyer
+You enter the mansion. &quot;Definitely a ritzy place,&quot; you think as you trip over something fancy looking. The exit is to the south, the main room to the north, and the kitchen to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86230" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86230">
+    <command xml:space="preserve">examine box</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d862c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d862c0">
+    <command xml:space="preserve">examine expensive object</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine Expensive thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86350" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86350">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Foyer
+ The exit is to the south, the main room to the north, and the kitchen to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d863e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d863e0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Kitchen
+The broken window is rather bloody and you see a trail running to the main room. It appears the person had some pretty hard times breaking in. I suspect it was the guard dog.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86470" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86470">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Kitchen
+The broken window is rather bloody and you see a trail running to the main room. It appears the person had some pretty hard times breaking in. I suspect it was the guard dog.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86500" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86500">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Foyer
+ The exit is to the south, the main room to the north, and the kitchen to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86590" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86590">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Main room
+The space is lavishly decorated, and high-quality furniture graces the room with class. There is a chandelier on the ceiling and a large bookcase to the east. The only problem is that there&apos;s empty spaces everywhere, where it appears someone has taken the valuable objects that should be there.
+
+You can see a bookcase here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86620" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86620">
+    <command xml:space="preserve">examine bookcase</command>
+    <result xml:space="preserve">One section of books on the bookcase is odd-looking.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d866b0">
+    <command xml:space="preserve">get in car</command>
+    <result xml:space="preserve">You get into the squad car.
+
+In the squad car you can see Laptop.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86c90" />
+      <child nodeId="node-0x17d86740" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86740">
+    <command xml:space="preserve">open laptop</command>
+    <result xml:space="preserve">You plug the address in, and get directions to the assignment. Time to move out!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86c00" />
+      <child nodeId="node-0x17d867d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d867d0">
+    <command xml:space="preserve">drive</command>
+    <result xml:space="preserve">Driveway
+The owners must be pretty wealthy, you think as you pull into the driveway of a fortress-like mansion with a strong-looking gate. The officer on duty is in his squad car here, too.
+
+You can see Officer Bigby here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86860" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86860">
+    <command xml:space="preserve">examine officer bigby</command>
+    <result xml:space="preserve">Sitting in his squad car, the officer looks like he was bored waiting for you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d868f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d868f0">
+    <command xml:space="preserve">talk to officer bigby</command>
+    <result xml:space="preserve">He let you konw that he couldn&apos;t find anything, but you might want to take a look around the yard and inside to figure out why the distress call went out in the first place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86980" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86980">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Driveway
+The yard is to the east, and the front door is to the north. The owners must be pretty wealthy, you think as you pull into the driveway of a fortress-like mansion with a strong-looking gate. The officer on duty is in his squad car here, too.
+
+You can see Officer Bigby here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86a10" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86a10">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Yard
+You&apos;re in the front yard. In the corner you see a vegetable and herb garden.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85c00" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85c00">
+    <command xml:space="preserve">examine garden</command>
+    <result xml:space="preserve">The soil seems disturbed, and a few plants are bent. Hiding behind this and the shrubbery would provide sufficient cover for a peeping tom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85c90" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85c90">
+    <command xml:space="preserve">examine the garden</command>
+    <result xml:space="preserve">The soil seems disturbed, and a few plants are bent. Hiding behind this and the shrubbery would provide sufficient cover for a peeping tom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85d20">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Yard
+You&apos;re in the front yard. In the corner you see a vegetable and herb garden.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d85db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d85db0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Foyer
+&quot;Definitely a ritzy place,&quot; you think as you trip over a box on the floor. There is some noise coming from the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86ae0">
+    <command xml:space="preserve">go norht</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86b70">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d86c00">
+    <command xml:space="preserve">Move out</command>
+    <result xml:space="preserve">You must name something more substantial.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d86c90">
+    <command xml:space="preserve">use laptop</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86d20">
+    <command xml:space="preserve">examine laptop</command>
+    <result xml:space="preserve">Open your laptop to check directions, databases, and other important stuff.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d86db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86db0">
+    <command xml:space="preserve">open laptop</command>
+    <result xml:space="preserve">You plug the address in, and get directions to the assignment. Time to move out!
+
+Driveway
+The owners must be pretty wealthy, you think as you pull into the driveway of a fortress-like mansion. The officer on duty is in his squad car here, too.
+
+Sitting in his squad car, the officer looks like he was bored waiting for you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d86e40">
+    <command xml:space="preserve">get up</command>
+    <result xml:space="preserve">But you aren&apos;t in anything at the moment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d86ed0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Break Room (on the couch)
+You lie on the couch in the detective&apos;s office breakroom, which barely has enough space for the mice it is infested with. Your phone buzzes to life with &quot;CHIEF&quot; displayed on its glowing face.
+
+You wish you could wake up next to something prettier.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d871a0" />
+      <child nodeId="node-0x17d87110" />
+      <child nodeId="node-0x17d86ff0" />
+      <child nodeId="node-0x17d86f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d86f60">
+    <command xml:space="preserve">examine bed</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d86ff0">
+    <command xml:space="preserve">examine filth</command>
+    <result xml:space="preserve">Your inconsistent 4-hour sleep schedules and round-the-clock detective work prevent you from finding much time to clean.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87080" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87080">
+    <command xml:space="preserve">examine bed</command>
+    <result xml:space="preserve">All you could fit was a matress on the floor.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d87110">
+    <command xml:space="preserve">answer phone</command>
+    <result xml:space="preserve">(to yourself)
+There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d871a0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first getting off the couch)
+You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87230" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87230">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d872c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d872c0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87350" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87350">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Office
+Walking out of the little room, you are greeted by several desks piled with phones and paperwork, which their human counterparts are busily shuffling around.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d873e0">
+    <command xml:space="preserve">wake up</command>
+    <result xml:space="preserve">The dreadful truth is, this is not a dream.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87470" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87470">
+    <command xml:space="preserve">Awake</command>
+    <result xml:space="preserve">The dreadful truth is, this is not a dream.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d87500">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Ring (being worn)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87a10" />
+      <child nodeId="node-0x17d87590" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87590">
+    <command xml:space="preserve">drop ring</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87620" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87620">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Apartment
+Your fresh-out-of-the-academy apartment is just enough space for the mice it is infested with.
+
+You can see RIng here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d876b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d876b0">
+    <command xml:space="preserve">take ring</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87740" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87740">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  RIng
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d877d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d877d0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Apartment
+Your fresh-out-of-the-academy apartment is just enough space for the mice it is infested with.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87860" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87860">
+    <command xml:space="preserve">Well actually, my original design was that you&apos;re a homicide detective with the power to see into the emotional value of objects (hold something special to someone, and you go back to a time when it was very emotionally tagged</command>
+    <result xml:space="preserve">You seem to want to talk to someone, but I can&apos;t see whom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d878f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d878f0">
+    <command xml:space="preserve">Talk to officer</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87980" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87980">
+    <command xml:space="preserve">Speak with Officer</command>
+    <result xml:space="preserve">(to yourself)
+There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d87a10">
+    <command xml:space="preserve">holding</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87aa0">
+    <command xml:space="preserve">ring</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87b30">
+    <command xml:space="preserve">Ring</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87bc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87bc0">
+    <command xml:space="preserve">examine Ring</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87c50">
+    <command xml:space="preserve">drop Ring</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87ce0">
+    <command xml:space="preserve">drop ring</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d87d70">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve">&gt;--&gt; No test scripts exist for this game.
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87e00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87e90">
+    <command xml:space="preserve">do</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87f20">
+    <command xml:space="preserve">go</command>
+    <result xml:space="preserve">You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d87fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d87fb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d88040" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d88040">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d880d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d880d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">That&apos;s the road.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d88160" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d88160">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The fence disagrees.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d881f0">
+    <command xml:space="preserve">enter ambulance</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d88280" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d88280">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Ambulance
+Your chest is so tight, it&apos;s as if it will collapse into itself. Through a mouth like cotton you try to make a sound while blurry, bluish figures in this bright yet small room flail around you.
+
+ &quot;Wait, something fell off the gurney.. it&apos;s a ring,&quot; the figure says, now coming slightly more into focus. You notice the beeping noise again, this time louder, more sporadic. Your hand feels lighter... you feel lighter...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d88310">
+    <command xml:space="preserve">go</command>
+    <result xml:space="preserve">You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d883a0">
+    <command xml:space="preserve">awake</command>
+    <result xml:space="preserve">The dreadful truth is, this is not a dream.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d88430" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d88430">
+    <command xml:space="preserve">awaken</command>
+    <result xml:space="preserve">The dreadful truth is, this is not a dream.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x17d884c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x17d884c0">
+    <command xml:space="preserve">wake up</command>
+    <result xml:space="preserve">The dreadful truth is, this is not a dream.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+  </item>
+  <item nodeId="node-0x17d88550">
+    <command xml:space="preserve">hi</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+  </item>
+</Skein>

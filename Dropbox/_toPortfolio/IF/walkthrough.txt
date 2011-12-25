@@ -1,0 +1,45 @@
+==BEGIN==
+> examine couch
+> examine filth
+> get up
+> go north
+> examine phone
+> answer phone
+> go north
+> talk to detective tim
+> go east
+> go south
+> get in car
+> examine laptop
+> open laptop
+> drive OR move out
+> examine gate
+> examine Officer Bigby
+> talk to officer bigby
+> go east
+> go north
+> examine fancy thing
+> go east
+> go west
+> go south
+> go east
+> go west
+> take ball
+> throw ball
+> go west
+> go north
+> go west
+> examine bookcase
+> examine books
+> take books
+> go west
+> go south
+> go south
+> go west
+> talk to officer bigby
+> go east
+> go north
+> go north
+> go west
+> talk to burglar
+==END==
